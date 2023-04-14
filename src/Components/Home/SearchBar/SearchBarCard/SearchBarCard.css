@@ -1,0 +1,19 @@
+.search-bar-card {
+    width: 20%;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.search-bar-card-title {
+    color: #6D6D6D;
+    margin: 0.5em;    
+}
+
+.search-bar-card-label {
+    color: #000000;
+    font-family: 'Ubuntu';
+    margin: 0.5em;    
+}

@@ -1,0 +1,21 @@
+.home {
+    background-image: url("Home.png");
+    height: 1000vh;
+}
+
+.slogan {
+    margin-top: 1em;
+    font-size: 57px;
+    line-height: 105px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.slogan h1 {
+    width: 60vw;
+    margin: auto;
+}
+
+.slogan h6 {
+    margin: 0;
+}

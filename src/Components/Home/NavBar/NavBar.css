@@ -1,0 +1,54 @@
+.nav-bar {
+  padding: 1em 0em;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  /* Your Logo */
+  position: absolute;
+  width: 186px;
+  height: 53px;
+  left: 50px;
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+
+.cities-dropdown {
+  background-image: url("Dropdown.png");
+  width: 20px;
+  height: 14px;
+  margin: 1em 0.5em;
+}
+
+.nav-items {
+  width: 50vw;
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 22px */
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  padding: 0.1em 2em 0.1em 2em;
+  margin: 0.5em;
+}
+
+.nav-item-outlined {
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+}

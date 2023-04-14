@@ -1,0 +1,27 @@
+.search-box-icon {
+    background-image: url('./SearchBox.png');
+    height: 30px;
+    width: 30px;
+    border-radius: 0px;
+    display: inline-block;
+    margin: 1em;
+}
+
+.search-box {
+    display: flex;
+    width: 20%;
+    height: 70px;
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 16px;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.search-box-label {
+    margin: 0.5em;
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 31px;
+    color: #FFFFFF;
+}
