@@ -13,6 +13,7 @@ function Home() {
         <h6>Make your stay painless with us</h6>
       </div>
       <SearchBar />
+      <div className='home-footer'></div>
     </div>
   );
 }

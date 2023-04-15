@@ -1,0 +1,63 @@
+.explore-card:nth-of-type(1) {
+    background-image: url('./king-size-bed-room.png');
+}
+
+.explore-card:nth-of-type(2) {
+    background-image: url('./8-person-penthouse.png');
+}
+
+.explore-card {
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore-cards {
+    justify-content: space-around;
+    display: flex;
+}
+
+.explore-card-desc {
+    box-sizing: border-box;
+
+    width: 424px;
+    height: 100px;
+    background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px;
+}
+
+.explore-card-info {
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 10px;
+}
+
+.explore-card-book {
+    width: 100px;
+    height: 50px;
+}
+
+.explore-card-title {
+    width: 300px;
+    height: 20px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}

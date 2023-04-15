@@ -8,6 +8,10 @@
     background-size: cover;
 }
 
+.home-footer {
+    background-image: url("Home-Footer.png");
+}
+
 .slogan {
     margin-top: 1em;
     font-size: 57px;
