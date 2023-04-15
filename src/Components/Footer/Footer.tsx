@@ -5,14 +5,16 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='footer'>
-      <div className='nav-items'>
-        <div className='logo'>Your Logo</div>
+      <div className='footer-items'>
+        <div className='logo'>Your Logo</div>        
+        <div className='footer-company'>&copy; 2021 Company Name</div>
+        <div className='footer-legal'>All rights reserved</div>
       </div>
-      <div className='nav-items'>
-        <div className='nav-item'>Explore</div>
-        <div className='nav-item'>About Us</div>
-        <div className='nav-item'>Cities <span className='cities-dropdown' /> </div>
-        <div className='nav-item nav-item-outlined'>Call</div>
+      <div className='footer-items'>
+        <div className='footer-item'>Explore</div>
+        <div className='footer-item'>About Us</div>
+        <div className='footer-item'>Cities</div>
+        <div className='footer-item footer-item-outlined'>Call</div>
       </div>
     </ div>
 

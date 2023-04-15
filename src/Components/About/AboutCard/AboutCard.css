@@ -1,29 +1,79 @@
-.about-card:nth-of-type(1) {
+.about-card-1 {
     background-image: url('./chapter-1.png');
-    width: 60%;
-    height: 266.99px;
+    width: 35%;
+    height: 15em;
 }
 
-.about-card:nth-of-type(2) {
+.about-card-2 {
     background-image: url('./chapter-2.png');
-    width: 40%;
-    height: 333.74px;
+    width: 50%;
+    height: 21em;
 }
 
-.about-card:nth-of-type(3) {
+.about-card-3 {
     background-image: url('./chapter-3.png');
-    width: 60%;
-    height: 502.58px;
+    width: 35%;
+    height: 25em;
 }
 
-.about-card:nth-of-type(4) {
+.about-card-4 {
     background-image: url('./chapter-4.png');
-    width: 40%;
-    height: 500px;
+    width: 50%;
+    height: 21em;
 }
 
 .about-card {
     border-radius: 15px;
     margin: 2em;
-    flex: 2;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;    
+}
+
+.about-card-text-1, .about-card-text-3 {
+    align-self: flex-end;
+}
+
+.about-card-text-2, .about-card-text-4 {
+    margin-top: 15em;
+}
+
+.about-card-text {
+    box-sizing: border-box;
+    width: 90%;
+    /* height: 100px; */
+    background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 1em;
+    margin: auto;
+}
+
+.about-card-title {
+    height: 26px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.about-card-desc {
+    /* width: 300px; */
+    /* height: 30px; */
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 110%;
+    /* or 15px */
+
+    display: flex;
+    align-items: center;
+    color: #000;
 }
