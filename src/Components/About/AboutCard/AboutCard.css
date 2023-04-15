@@ -32,12 +32,16 @@
     display: flex;    
 }
 
-.about-card-text-1, .about-card-text-3 {
-    align-self: flex-end;
+.about-card-text-1 {
+    margin-top:10em !important;
 }
 
 .about-card-text-2, .about-card-text-4 {
-    margin-top: 15em;
+    margin-top: 15em !important;
+}
+
+.about-card-text-3 {
+    margin-top: 18em !important;
 }
 
 .about-card-text {
