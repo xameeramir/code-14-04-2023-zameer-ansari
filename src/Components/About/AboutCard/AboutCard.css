@@ -1,27 +1,29 @@
 .about-card:nth-of-type(1) {
     background-image: url('./chapter-1.png');
-    width: 400px;
+    width: 60%;
     height: 266.99px;
 }
 
 .about-card:nth-of-type(2) {
     background-image: url('./chapter-2.png');
-    width: 500px;
+    width: 40%;
     height: 333.74px;
 }
 
 .about-card:nth-of-type(3) {
     background-image: url('./chapter-3.png');
-    width: 400px;
+    width: 60%;
     height: 502.58px;
 }
 
 .about-card:nth-of-type(4) {
     background-image: url('./chapter-4.png');
-    width: 500px;
+    width: 40%;
     height: 500px;
 }
 
 .about-card {
     border-radius: 15px;
+    margin: 2em;
+    flex: 2;
 }
