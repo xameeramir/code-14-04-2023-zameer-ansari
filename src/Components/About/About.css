@@ -1,0 +1,15 @@
+.about {
+    height: 100vh;
+}
+
+.about h1 {
+    font-size: 64px;
+    padding-left: 1.4em;    
+}
+
+.about p {
+    width: 300px;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    padding-left: 5em;    
+}
